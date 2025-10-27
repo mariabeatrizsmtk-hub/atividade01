@@ -40,14 +40,15 @@ public class Main {
 
         // Diz situação do aluno
         if (mediaFinal >= 7) {
-            System.out.println("Situação: Aprovado! 🎉");
+            System.out.println("Situação: Aprovado! ");
         } else if (mediaFinal >= 5) {
-            System.out.println("Situação: Recuperação 😬");
+            System.out.println("Situação: Recuperação ");
         } else {
-            System.out.println("Situação: Reprovado 😢");
+            System.out.println("Situação: Reprovado ");
         }
 
         System.out.println("\nObrigado por usar o Sistema Escolar!");
         entrada.close();
     }
 }
+
